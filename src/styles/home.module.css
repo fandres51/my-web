@@ -1,0 +1,176 @@
+/* Estilos del header */
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 20px;
+}
+
+.header div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.name {
+    margin: 0 15px;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+/* Estilos del banner */
+
+.banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px auto;
+    max-width: 1000px;
+    
+}
+
+.bannerDesc {
+    font-size: 22px;
+    line-height: 30px;
+    max-width: 320px;
+    color: #226e93;
+}
+
+.bannerBtn div {
+    width: 320px;
+    background-color: #1e6c93;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+    border-radius: 3px;
+    margin: 40px 0;
+}
+
+.bannerBtn div:hover {
+    background-color: #185472;
+}
+
+.bannerBtn div:active {
+    background-color: #123c52;
+}
+
+.bannerBtn div p {
+    color: white;
+}
+
+@media (max-width: 680px) { 
+    .banner {
+        flex-direction: column;
+        align-items: center;
+        max-width: 320px;
+    }
+}
+
+@media (max-width: 400px) {
+    .bannerDesc {
+        max-width: 300px;
+    }
+    .bannerBtn div{
+        width: 300px;
+    }
+}
+
+/* Estilos del about */
+
+.about {
+    max-width: 1000px;
+    margin: 50px auto;
+}
+
+.about div h2 {
+    color: #226e93;
+    text-align: center;
+    font-weight: 400;
+    margin-top: 90px;
+    margin-bottom: 50px;
+}
+
+.about div p {
+    text-align: center;
+    max-width: 700px;
+    font-size: 19px;
+    line-height: 32px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Estilos del footer */
+
+.footer div h2 {
+    color: #226e93;
+    text-align: center;
+    font-weight: 400;
+    margin-top: 90px;
+    margin-bottom: 30px;
+}
+
+.redes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+}
+
+.redes a {
+    display: flex;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    margin: 0 10px;
+    border-radius: 50%;
+    background-color: #e4e4e4;
+}
+
+@media (max-width: 400px) {
+    .redes a {
+        margin: 0 5px;
+    }
+}
+
+.redes a:hover {
+    background-color: #c5c5c5;
+}
+
+.redes a:active {
+    background-color: #a7a6a6;
+}
+
+.footerEmail {
+    text-align: center;
+    border-top: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    padding: 20px 0;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.footerEmail p {
+    font-size: 19px;
+    color: #747474;
+}
+
+.footerOrText {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.footerOrText p {
+    color: #226e93;
+    font-size: 14px;
+}
+
+.copyright {
+    text-align: center;
+    margin: 20px auto;
+    margin-top: 80px;
+}
