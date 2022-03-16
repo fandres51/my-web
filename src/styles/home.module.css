@@ -6,7 +6,6 @@
     align-items: center;
     padding: 10px 0;
     margin: 0 20px;
-    background-color: white;
     border-bottom: 1px #b4b4b4 solid;
 }
 
@@ -113,6 +112,7 @@
     line-height: 32px;
     margin-left: auto;
     margin-right: auto;
+    color: #505050;
 }
 
 /* Estilos del footer */
@@ -142,12 +142,6 @@
     margin: 0 10px;
     border-radius: 50%;
     background-color: #e4e4e4;
-}
-
-@media (max-width: 400px) {
-    .redes a {
-        margin: 0 5px;
-    }
 }
 
 .redes a:hover {
@@ -186,4 +180,23 @@
     text-align: center;
     margin: 20px auto;
     margin-top: 180px;
+}
+
+.copyright p {
+    color: #505050;
+}
+
+@media (max-width: 400px) {
+    .redes a {
+        margin: 0 5px;
+    }
+}
+
+@media (max-width: 680px) { 
+    .copyright {
+        margin-top: 250px;
+    }
+    .footer div h2 {
+        margin-top: 250px;
+    }
 }
