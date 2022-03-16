@@ -11,5 +11,6 @@ body {
   min-height: 100%;
 }
 body {
-  background: white;
+  background-color: rgb(248, 248, 248);
+  /* background-color: #e4e4e4; */
 }
