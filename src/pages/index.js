@@ -65,7 +65,7 @@ export default function Home() {
         </div>
         <div>
           <StaticImage
-            src="../images/bannerimg.jpg"
+            src="../images/bannerimg.png"
             alt="logo"
             placeholder="blurred"
             layout="fixed"
@@ -84,7 +84,7 @@ export default function Home() {
             la Escuela Politécnica Nacional (Quito). Me especializo en
             desarrollo web y mobil, para lo cual utilizo principalmente
             Javascript, React, Express, MongoDB y Flutter. Actualmente me
-            encuentro estudiando una segunta carrera, siendo esta publicidad, en
+            encuentro estudiando una segunda carrera, siendo esta publicidad, en
             la Universidad de las Américas mientras me desempeño como
             freelancer.
           </p>
