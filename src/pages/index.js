@@ -5,7 +5,6 @@ import {
   FaInstagram,
   FaGithub,
   FaLinkedin,
-  FaWhatsapp,
 } from "react-icons/fa"
 
 import "../styles/global.css"
@@ -102,17 +101,14 @@ export default function Home() {
             <p>o en mis redes sociales</p>
           </div>
           <div className={styles.redes}>
-            <a href="https://wa.me/593982930595" target="_blank" rel="noreferrer">
-              <FaWhatsapp size={25}></FaWhatsapp>
-            </a>
             <a href="http://twitter.com/fandres51" target="_blank" rel="noreferrer">
               <FaTwitter size={25}></FaTwitter>
             </a>
-            <a href="http://instagram.com/fandres51" target="_blank" rel="noreferrer">
-              <FaInstagram size={25}></FaInstagram>
-            </a>
             <a href="https://www.linkedin.com/in/fabio-andr%C3%A9s-enr%C3%ADquez-476692194" target="_blank" rel="noreferrer">
               <FaLinkedin size={25}></FaLinkedin>
+            </a>
+            <a href="http://instagram.com/fandres51" target="_blank" rel="noreferrer">
+              <FaInstagram size={25}></FaInstagram>
             </a>
             <a href="http://github.com/fandres51" target="_blank" rel="noreferrer">
               <FaGithub size={25}></FaGithub>
