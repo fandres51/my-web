@@ -104,7 +104,7 @@ export default function Home() {
             <a href="http://twitter.com/fandres51" target="_blank" rel="noreferrer">
               <FaTwitter size={25}></FaTwitter>
             </a>
-            <a href="https://www.linkedin.com/in/fabio-andr%C3%A9s-enr%C3%ADquez-476692194" target="_blank" rel="noreferrer">
+            <a href="https://www.linkedin.com/in/fabio-andres-enriquez-476692194/" target="_blank" rel="noreferrer">
               <FaLinkedin size={25}></FaLinkedin>
             </a>
             <a href="http://instagram.com/fandres51" target="_blank" rel="noreferrer">
