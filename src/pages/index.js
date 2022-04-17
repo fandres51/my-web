@@ -32,7 +32,7 @@ export default function Home() {
           </div>
           <div>
             <a
-              href="https://linktr.ee/fandres"
+              href="https://linktr.ee/fandres51"
               target="_blank"
               rel="noreferrer"
             >
