@@ -1,11 +1,7 @@
 import React from "react"
 import { StaticImage } from "gatsby-plugin-image"
-import {
-  FaTwitter,
-  FaInstagram,
-  FaGithub,
-  FaLinkedin,
-} from "react-icons/fa"
+import { Helmet } from "react-helmet"
+import { FaTwitter, FaInstagram, FaGithub, FaLinkedin } from "react-icons/fa"
 
 import "../styles/global.css"
 import * as styles from "../styles/home.module.css"
@@ -13,6 +9,10 @@ import * as styles from "../styles/home.module.css"
 export default function Home() {
   return (
     <div>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Fabio Andrés Enríquez</title>
+      </Helmet>
       <nav>
         <div className={styles.header}>
           <div>
@@ -101,16 +101,32 @@ export default function Home() {
             <p>o en mis redes sociales</p>
           </div>
           <div className={styles.redes}>
-            <a href="http://twitter.com/fandres51" target="_blank" rel="noreferrer">
+            <a
+              href="http://twitter.com/fandres51"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FaTwitter size={25}></FaTwitter>
             </a>
-            <a href="https://www.linkedin.com/in/fabio-andres-enriquez-476692194/" target="_blank" rel="noreferrer">
+            <a
+              href="https://www.linkedin.com/in/fabio-andres-enriquez-476692194/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FaLinkedin size={25}></FaLinkedin>
             </a>
-            <a href="http://instagram.com/fandres51" target="_blank" rel="noreferrer">
+            <a
+              href="http://instagram.com/fandres51"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FaInstagram size={25}></FaInstagram>
             </a>
-            <a href="http://github.com/fandres51" target="_blank" rel="noreferrer">
+            <a
+              href="http://github.com/fandres51"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FaGithub size={25}></FaGithub>
             </a>
           </div>
