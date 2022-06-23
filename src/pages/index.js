@@ -1,7 +1,7 @@
 import React from "react"
 import { StaticImage } from "gatsby-plugin-image"
 import { Helmet } from "react-helmet"
-import { FaTwitter, FaInstagram, FaGithub, FaLinkedin } from "react-icons/fa"
+import { FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa"
 
 import "../styles/global.css"
 import * as styles from "../styles/home.module.css"
@@ -45,19 +45,19 @@ export default function Home() {
         <div>
           <div>
             <p className={styles.bannerDesc}>
-              Soy Fabio Andrés Enríquez, un desarrollador web/mobil y diseñador
-              UX de Quito, Ec.
+              Soy Fabio Andrés Enríquez, un Ingeniero en Sistemas dedicado al
+              Márketing Digital de Quito, Ec.
             </p>
           </div>
           <div>
             <a
-              href="https://github.com/fandres51"
+              href="https://www.linkedin.com/in/fabio-andres-enriquez-476692194/"
               target="_blank"
               rel="noreferrer"
               className={styles.bannerBtn}
             >
               <div>
-                <p>Mira mi portafolio</p>
+                <p>Encuéntrame en Linkedin</p>
               </div>
             </a>
           </div>
@@ -79,20 +79,23 @@ export default function Home() {
         </div>
         <div>
           <p>
-            Soy Ingeniero en Sistemas Informáticos y de Computación graduado de
-            la Escuela Politécnica Nacional (Quito). Me especializo en
-            desarrollo web y mobil, para lo cual utilizo principalmente
-            Javascript, React, Express, MongoDB y Flutter. Actualmente me
-            encuentro estudiando una segunda carrera, siendo esta publicidad, en
-            la Universidad de las Américas mientras me desempeño como
-            freelancer.
+            Hola, soy un Ingeniero en Sistemas ecuatoriano dedicado actualmente
+            al márketing y la creatividad. Siempre estoy buscando vivir nuevas
+            experiencias, conocer nuevas personas y aprender cosas nuevas.{" "}
+            <br />
+            <br />
+            Me apasiona cómo la tecnología cambió y está cambiando la forma en
+            que vivimos y nos relacionamos, por lo cual, estoy estudiando
+            marketing digital como complemento de mi primera carrera. <br />
+            <br />
+            Además, también soy un desarrollador fullstack de JavaScript.
           </p>
         </div>
       </div>
       <footer>
         <div className={styles.footer}>
           <div>
-            <h2>Contáctame en</h2>
+            <h2>Encuéntrame en</h2>
           </div>
           <div className={styles.footerEmail}>
             <p>fabio.and1514@gmail.com</p>
@@ -101,6 +104,13 @@ export default function Home() {
             <p>o en mis redes sociales</p>
           </div>
           <div className={styles.redes}>
+            <a
+              href="http://instagram.com/fandres51"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaInstagram size={25}></FaInstagram>
+            </a>
             <a
               href="http://twitter.com/fandres51"
               target="_blank"
@@ -115,23 +125,9 @@ export default function Home() {
             >
               <FaLinkedin size={25}></FaLinkedin>
             </a>
-            <a
-              href="http://instagram.com/fandres51"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <FaInstagram size={25}></FaInstagram>
-            </a>
-            <a
-              href="http://github.com/fandres51"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <FaGithub size={25}></FaGithub>
-            </a>
           </div>
           <div className={styles.copyright}>
-            <p>Copyright 2022 Fabio Enríquez</p>
+            <p>Copyright &copy; 2022 Fabio Enríquez</p>
           </div>
         </div>
       </footer>
